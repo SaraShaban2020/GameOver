@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="game site">
+    <title>GameOver</title>
+    <link rel="icon" href="images/logo-sm.png">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <span class="position-fixed bottom-0 end-0 m-3 z-3">
+    <i role="button" id="mode" class="fa-regular fa-sun fa-xl p-3"></i>
+ </span>
+    <!-- navbar start -->
+    <nav class="navbar navbar-expand-lg   ">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="images/logo-sm.png" alt="logo" class="logo ">GameOver</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon">
+              <i class="fa-solid fa-bars text-muted"></i>
+            </span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0 menue">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#" data-category ="MMorpg">MMorpg</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" data-category ="SHOOTER">SHOOTER</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" data-category ="SAILING">SAILING</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" data-category ="SPORTS">SPORTS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"data-category ="PIXEL">PIXEL</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" data-category ="PVP">PVP</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" data-category ="ACTION">ACTION</a>
+              </li>
+            </ul>
+            <ul class="ms-auto  list-unstyled mb-2">
+              <li class="nav-item">
+                <a class="nav-link logout"  >logout</a>
+                </li>
+            </ul>
+             
+          </div>
+        </div>
+    </nav>
+    <!-- nav end -->
+    
+ 
+    <main class="container my-5">
+      <h1 class="h4 my-5">Top Free Moba Games For PC And Browser In 2023!</h1>
+      <section class="position-relative mt-3"> 
+        <div class="row gy-4" id="games">
+         
+        </div>
+        <div class="loading d-none" id="loader">
+          <span class="loader"></span>
+       </div>
+      </section>
+     
+    
+    </main>
+    
+  
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/home.js"></script>
+</body>
+</html>
